@@ -25,3 +25,7 @@ def jaccardDistance(A,B):
   B = set(B)
   num = len(A.intersection(B))
   return 1 - (float(num) / (len(A) + len(B) - num))
+
+Y = jaccardDistance(newHope, jedi)
+
+print Y
